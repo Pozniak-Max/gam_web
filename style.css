@@ -4738,13 +4738,13 @@ line-height: normal;
 .slider__btn--left {
   left: 6%;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 10px;
 }
 
 .slider__btn--right {
   right: 6%;
   transform: translate(50%, -50%);
-  top: 50%;
+  top: 10px;
 }
 
 .dots {
@@ -4754,7 +4754,7 @@ line-height: normal;
   transform: translateX(-50%);
   display: flex;
   /* margin-bottom: 100px; */
-  top: 0;
+  top: 100px;
 }
 
 .dots__dot {
