@@ -1489,7 +1489,7 @@ display: none;
   overflow: hidden;
   position: absolute;
 }
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .middle-section-container {
     display: none;
 }
@@ -2655,7 +2655,7 @@ body {
 .testimonial-header {
   display: flex;
   align-items: center;
-  width: 94vw;
+  width: 90vw;
   margin-bottom: 20px;
 }
 .testimonial-name {
@@ -2694,6 +2694,7 @@ body {
   background: rgba(196, 196, 196, 0.42);
   padding: 10px;
   margin-top: 45vh;
+  position: relative;
 }
 .form-inner {
   width: 100%;
@@ -4689,7 +4690,7 @@ line-height: normal;
 
 .slider {
   width: 100%;
-  height: 400px;
+  height: 375px;
   margin: 0 auto;
   /* position: relative; */
 
@@ -4781,7 +4782,7 @@ line-height: normal;
 
 /* TESTIMONIALS */
 .testimonial {
-  width: 65%;
+  width: 75%;
   position: relative;
   top: 0;
 }
@@ -4984,6 +4985,6 @@ background: transparent!important;
   }
   #section--3.section{
     width: 100%;
-    height: 100px;
+    height: 0px;
   }
 }
