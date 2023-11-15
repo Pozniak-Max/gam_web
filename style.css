@@ -4894,6 +4894,7 @@ line-height: normal;
   left: 20vw;
   top: 8vh;
   height: 100px;
+  width: 80%;
 }
 
 /* Mobile menu link styling */
@@ -4954,8 +4955,8 @@ background: transparent!important;
 .footer-social_mob a{
  padding: 0;
 }
-#mobileMenu.mobile-menu .open{
-  height: auto!important;
+#mobileMenu.mobile-menu.open{
+  height: 445px!important;
 }
 /* Responsive design */
 @media (max-width: 768px) {
