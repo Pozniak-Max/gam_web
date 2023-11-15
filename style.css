@@ -735,6 +735,7 @@ line-height: normal;
   position: absolute;
   top: 0;
   left: 30%;
+  margin-bottom: 20px;
 }
 
 .tour-section::before {
@@ -2024,7 +2025,7 @@ body {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  height: 200vh;
+  height: 941vh;
   align-items: center;
 }
 .quest-inner-container {
@@ -2127,7 +2128,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 10px 0px;
   padding: 10px;
   width: 80vw;
-  height: 75vh;
+  height: 475px;
   margin-left: 3%;
   display: flex;
   flex-direction: column;
@@ -2147,7 +2148,7 @@ body {
 
 
 .event-section {
-  height: 170vh;
+  height: 232vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -2239,6 +2240,7 @@ body {
   width: 100vw;
   justify-content: center;
   /* margin-bottom: 20%; */
+  margin-top: 40px;
 }
 .right-arrow svg {
   background: rgba(0, 0, 0, 0.25);
@@ -2347,7 +2349,7 @@ body {
 }
 
 .tour-section {
-  height: 151vh;
+  height: 185vh;
   background: rgba(66, 65, 65, 0.48);
   position: relative;
   display: flex;
@@ -2373,7 +2375,7 @@ body {
 .tour-inner-container {
   justify-content: center;
   width: 90vw;
-  height: 87%;
+  height: 800px;
   flex-shrink: 0;
   border-radius: 6px;
   background: rgba(44, 44, 44, 0.27);
