@@ -4688,7 +4688,7 @@ line-height: normal;
 
 .slider {
   width: 100%;
-  height: 24rem;
+  height: 400px;
   margin: 0 auto;
   /* position: relative; */
 
@@ -4701,7 +4701,7 @@ line-height: normal;
   position: absolute;
   top: 0;
   width: 100%;
-  height: 24rem;
+  height: 23rem;
   display: flex;
   align-items: center;
   justify-content: center;
