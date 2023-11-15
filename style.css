@@ -1516,10 +1516,12 @@ display: none;
   position: relative;
   display: flex;
   align-items: center;
-  padding: 0px 175px;
+  padding: 0px 180px;
   padding-left: 91%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 6.25%, rgba(0, 0, 0, 0.00) 99.84%);
   width: 100vw;
+  justify-content: center;
+  /* padding: 40px; */
 }
 .hero-content-container::before {
   content: "";
@@ -1535,7 +1537,7 @@ display: none;
 .hero-content {
   /* padding: 30px; */
   /* width: 100%; */
-  padding: 50px;
+  padding: 48px;
   position: absolute;
   left: 0;
   top: 10%;
@@ -1565,7 +1567,7 @@ text-align: center;
  
 font-family: Playfair Display SC;
  
-font-size: 30px;
+font-size: 28px;
  
 font-style: normal;
  
@@ -1574,16 +1576,25 @@ font-weight: 700;
 line-height: normal;
  
 font-variant: small-caps;
+ 
+padding: 0 40px;
 }
 .hero-text span {
 
-  font-variant: normal;
-  display: block;
-  color: #11E3E3;
+font-variant: normal;
+
+display: block;
+
+color: #11E3E3;
+
 font-family: Playfair Display SC;
-font-size: 32px;
+
+font-size: 30px;
+
 font-style: normal;
+
 font-weight: 900;
+
 line-height: normal;
 }
 .hero-buttons{
@@ -4787,6 +4798,7 @@ line-height: normal;
   width: 75%;
   position: relative;
   top: 0;
+  left: -20px;
 }
 
 .testimonial::before {
